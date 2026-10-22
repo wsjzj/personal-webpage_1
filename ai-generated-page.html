@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Zhijie Jia's electrical and electronic engineering portfolio: power electronics, embedded systems, circuit design, and engineering experience.">
+  <title>Zhijie Jia | Engineering Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Zhijie Jia, back to top"><span class="monogram">ZJ</span> Zhijie Jia<span class="brand-detail"> / Engineering</span></a>
+    <nav aria-label="Main navigation"><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#background">Background</a><a href="#contact">Contact <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main id="main">
+    <section class="hero wrap" id="top" aria-labelledby="intro-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot" aria-hidden="true"></span> Electrical &amp; electronic engineering</p>
+        <h1 id="intro-title">Zhijie Jia<span class="hero-statement">From circuits<br>to working systems.</span></h1>
+        <p class="intro">An engineering undergraduate at the University of Nottingham Ningbo China, with project experience in power converter control, physiological signal processing, and embedded hardware.</p>
+        <div class="actions"><a class="button" href="#projects">Explore my projects <span aria-hidden="true">↘</span></a><a class="text-link" href="mailto:zhijiejia701@gmail.com">Get in touch <span aria-hidden="true">↗</span></a></div>
+        <p class="hero-note">BEng (Hons) · Expected graduation June 2027</p>
+      </div>
+      <aside class="focus-panel" aria-label="Engineering focus">
+        <div class="panel-heading"><span>Engineering focus</span><span aria-hidden="true">01 — 03</span></div>
+        <svg class="circuit" viewBox="0 0 360 180" fill="none" aria-hidden="true">
+          <path class="grid-line" d="M0 30H360M0 60H360M0 90H360M0 120H360M0 150H360M30 0V180M60 0V180M90 0V180M120 0V180M150 0V180M180 0V180M210 0V180M240 0V180M270 0V180M300 0V180M330 0V180"/>
+          <path class="trace" d="M20 90H85V45H145M215 45H280V90H340M180 80V140H85V90M280 90V140H215"/>
+          <rect x="145" y="20" width="70" height="60" rx="4" class="trace"/>
+          <path class="signal" d="M153 52H164L172 34L185 67L195 47H207M160 140H170L175 130L185 150L190 140H215"/>
+          <g class="nodes"><circle cx="20" cy="90" r="5"/><circle cx="340" cy="90" r="5"/><circle cx="85" cy="90" r="4"/><circle cx="280" cy="90" r="4"/></g>
+        </svg>
+        <ol class="focus-list"><li><span>01</span><div>Power electronics<small>Converters &amp; closed-loop control</small></div></li><li><span>02</span><div>Embedded systems<small>Acquisition, interfaces &amp; integration</small></div></li><li><span>03</span><div>Circuit design<small>Analogue front ends &amp; PCB layout</small></div></li></ol>
+        <p class="panel-note">Areas explored through coursework and projects</p>
+      </aside>
+    </section>
+    <section class="section wrap" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading"><div><p class="eyebrow">01 / Selected work</p><h2 id="projects-title">Engineering in practice.</h2></div><p>From simulation and circuit design to<br class="desktop-break"> assembly, testing, and integration.</p></div>
+      <div class="projects">
+        <article class="project"><div class="project-top"><span class="project-number">01</span><span>Spring 2026</span></div><p class="eyebrow">Power electronics</p><h3>Closed-loop power converter <br>control &amp; PCB design</h3><p>Designed a converter PCB and evaluated feedback compensators, connecting simulation work with laboratory measurements.</p><p class="role"><strong>My role</strong> Converter design, PCB layout, and closed-loop controller implementation.</p><ul class="tags" aria-label="Project tools"><li>KiCad</li><li>PLECS</li><li>Feedback control</li></ul><details><summary>Explore the technical work <span aria-hidden="true">+</span></summary><ul class="detail-list"><li>Designed the PCB around current paths, grounding, routing constraints, and laboratory build requirements.</li><li>Modelled Type I and Type III compensators to assess output voltage regulation and 100 Hz ripple attenuation.</li><li>Compared simulations with laboratory measurements, finding close agreement in overall converter performance while investigating residual low-frequency noise in the Type I configuration.</li></ul></details></article>
+        <article class="project"><div class="project-top"><span class="project-number">02</span><span>Autumn 2025</span></div><p class="eyebrow">Sensing &amp; signal processing</p><h3>Heart rate &amp; blood oxygen <br>(SpO₂) detection system</h3><p>Developed a PPG signal front end and implemented microcontroller calculations for heart rate and blood oxygen detection.</p><p class="role"><strong>My role</strong> Core circuit design and signal processing.</p><ul class="tags" aria-label="Project technologies"><li>STM32</li><li>FFT analysis</li><li>CPLD</li></ul><details><summary>Explore the technical work <span aria-hidden="true">+</span></summary><ul class="detail-list"><li>Designed a transimpedance amplifier, signal conditioning stage, and filtering modules; used FFT-based analysis to estimate heart rate and analyse signal noise.</li><li>Implemented heart-rate and SpO₂ calculations on STM32 using ADC and DMA for signal acquisition; contributed to PCB layout, soldering, and debugging.</li><li>Implemented and tested BCD-to-seven-segment decoding logic on a CPLD for a common-anode display.</li></ul></details></article>
+        <article class="project"><div class="project-top"><span class="project-number">03</span><span>2024–2025</span></div><p class="eyebrow">Hardware integration</p><h3>Laboratory <br>vehicle design</h3><p>Assembled vehicle hardware and integrated motor-drive components with a Raspberry Pi control board.</p><p class="role"><strong>My role</strong> System assembly and motor-drive integration.</p><ul class="tags" aria-label="Project technologies"><li>Raspberry Pi</li><li>UART</li><li>I2C</li></ul><details><summary>Explore the technical work <span aria-hidden="true">+</span></summary><ul class="detail-list"><li>Completed system assembly and hardware connections for motors, driver modules, and the control board.</li><li>Implemented remote control and debugging through UART and I2C interfaces.</li><li>Supported subsequent integration of line following, image recognition, and real-time status display functions.</li></ul></details></article>
+      </div>
+    </section>
+    <section class="experience-band" id="experience" aria-labelledby="experience-title"><div class="wrap experience-layout"><div><p class="eyebrow">02 / Industry experience</p><h2 id="experience-title">Learning where<br>engineering happens.</h2><p class="section-intro">Practical exposure to plant operations, instrumentation, and experimental hardware.</p></div><div class="timeline">
+      <article class="job"><p class="date">June–August 2026 <span>· Suzhou, China</span></p><h3>Operations and Instrumentation &amp; Control Intern</h3><p class="organisation">Suzhou Industrial Park Northern Gas Turbine Cogeneration Co., Ltd. (GCL)</p><ul><li>Interpreted electrical single-line diagrams, identifying transformers, busbars, bus couplers, and CT/PT configurations.</li><li>Traced auxiliary-power distribution paths for unit start-up, grid connection, and station service systems.</li><li>Gained exposure to thermal-control monitoring and field instrumentation; accompanied operations staff on inspections and routine site work.</li></ul></article>
+      <article class="job"><p class="date">June–August 2025 <span>· Ningbo, China</span></p><h3>Advanced Electric Drive Systems Intern</h3><p class="organisation">Yongjiang Laboratory</p><ul><li>Used oscilloscopes, signal generators, and related instruments; assisted with experimental-result organisation and technical documentation.</li><li>Assisted with circuit assembly, functional validation, and signal testing, recording measurements for subsequent analysis.</li></ul></article>
+    </div></div></section>
+    <section class="section wrap" id="background" aria-labelledby="background-title"><div class="section-heading"><div><p class="eyebrow">03 / Background &amp; capabilities</p><h2 id="background-title">A foundation to build on.</h2></div></div><div class="background-grid"><div><h3 class="subheading">Education</h3><article class="education"><p class="date">September 2023–June 2027 <span>· Expected</span></p><h4>University of Nottingham Ningbo China</h4><p>BEng (Hons) Electrical and Electronic Engineering</p><p class="gpa">GPA <strong>3.84 / 4.0</strong></p></article><article class="education"><p class="date">September 2025–May 2026</p><h4>University of Nottingham, United Kingdom</h4><p>Year 3 study at Park campus</p></article><h4 class="small-heading">Relevant coursework</h4><p>Analogue &amp; Digital Circuits, Signal Processing, Power Electronics, Embedded Systems, Control Systems, and C/C++.</p></div><div><h3 class="subheading">Technical toolkit</h3><dl class="skills"><div><dt>Simulation &amp; EDA</dt><dd>LTspice, KiCad, MATLAB, PLECS, Arduino IDE</dd></div><div><dt>Programming</dt><dd>C, C++</dd></div><div><dt>Hardware &amp; testing</dt><dd>PCB layout, soldering, circuit debugging, oscilloscopes, signal generators</dd></div><div><dt>Languages</dt><dd>English (IELTS 7.0)<br>Mandarin (native)</dd></div></dl></div></div><aside class="leadership"><p class="eyebrow">Beyond the laboratory</p><div><h3>Student Representative &amp; Programme Ambassador</h3><p>Organised engineering-related campus events and internship-sharing sessions; served as a student representative for Faculty of Science and Engineering meetings and as an engineering programme ambassador.</p></div></aside></section>
+    <section class="contact wrap" id="contact" aria-labelledby="contact-title"><div><p class="eyebrow">04 / Contact</p><h2 id="contact-title">Let’s connect.</h2><p>For conversations about engineering, projects, and opportunities.</p></div><a class="email-link" href="mailto:zhijiejia701@gmail.com">zhijiejia701@gmail.com <span aria-hidden="true">↗</span></a></section>
+  </main>
+  <footer class="wrap"><p>Zhijie Jia <span> / Personal portfolio</span></p><p>AI-Generated Webpage · Version 1</p><a href="#top">Back to top ↑</a></footer>
+</body>
+</html>
